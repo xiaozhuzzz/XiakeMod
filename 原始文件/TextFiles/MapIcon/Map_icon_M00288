@@ -1,3 +1,0 @@
-#iNpcID	sCoordinate	iNpcType	sSCondition	iMovieType	sDialogueQID	sMobileQID	sSpecialSet	iTalkSteer	iStoreID	iMaxTalk
-300261001	(55.64,29.99,50.29,0,stand01,25,0,0)	0	0,0	2	N300261001	N300261001	0	1	0	0
-300261011	(56.12,29.99,51.31,0,stand01,204,0,0)	0	0,0	2	N300261001	N300261001	0	1	0	0
