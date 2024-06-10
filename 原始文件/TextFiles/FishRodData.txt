@@ -1,0 +1,4 @@
+#iItemID	fGetTime	iFishingLine	iCoefficient	iEndurance	iPhysical
+100102	4	100	3	21	1
+100103	3	110	4	30	2
+100104	2	120	5	42	3

@@ -1,0 +1,4 @@
+#iNpcID	sCoordinate	iNpcType	sSCondition	iMovieType	sDialogueQID	sMobileQID	sSpecialSet	iTalkSteer	iStoreID	iMaxTalk
+910005001	(100,20,196,0,stand01,100,0,0)	0	4,20000022	2	910005001	0	0	0	0	0
+910007001	(99.39,20,195.34,0,stand01,115,0,0)	0	1,20000023	2	910007001	0	0	1	0	0
+910006001	(101.66,20,197.27,0,stand01,182,0,0)	0	1,20000023	2	910006001	0	0	1	0	0

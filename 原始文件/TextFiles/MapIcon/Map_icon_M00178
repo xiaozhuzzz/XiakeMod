@@ -1,0 +1,2 @@
+#iNpcID	sCoordinate	iNpcType	sSCondition	iMovieType	sDialogueQID	sMobileQID	sSpecialSet	iTalkSteer	iStoreID	iMaxTalk
+100054001	(81.34,3,57.90,10,stand01,126,0,1)*(81.34,3,57.90,1,stand01,126,0,1)	0	6,9101053,100054,50	2	N100054001	0	(7,9999999,M99000006)	1	0	0
