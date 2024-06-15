@@ -1,0 +1,7 @@
+#1.联动ID = 内功ID*10 + x（0-9）
+#2.联动条件逻辑，0-与逻辑，即条件列表需全部满足，1-或逻辑，即条件列表只需要一个满足即可
+#3.条件列表 Type：条件类型，0-内功-运行中，1-内功-学会 Value1 ： 内功ID，Value2 ： 内功等级 Operator ： 条件运算符 0-大于等于，1-等于，2-小于等于，3-不等于
+#4.内功名字，不改变填none
+#5.内功描述，不改变填none
+#6.添加的buff列表
+600100	0	{"data":[{"Type":1,"Value1":"60011","Value2":"0","Operator":"0"}]}	none	无相：模仿敌人招式反击，限同类型武学<br>无往：无限反击，累进反击60%<br>无念：反击后回复内力10%<br>百川汇海：攻击吸收内力50%<br>幽冥气漩：内力抵御伤害70%	{"data":[{"m_effectPartType":18,"m_effectAccumulateType":"0","m_bPercent":"true","m_iValue1":"50","m_iValue2":"50","m_iValueLimit":"0"},{"m_effectPartType":16,"m_effectAccumulateType":"0","m_bPercent":"true","m_iValue1":"70","m_iValue2":"70","m_iValueLimit":"0"}]}
