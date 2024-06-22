@@ -1,4 +1,5 @@
 #SkillNo	SkillName	NeedToSelectTarget	SkillType	TargetType	TargetArea	Range	AOE	MinDamage	MaxDamage	UseAp	CD	UseSkillAfterMove	condition	SkillEffectID	sSkillIcon
+200000001	就决定是你了，鸡师傅	1	2	4	0	1	0	0	0	0	999	0	91001202	0	s02005
 100001001	天上天下	1	0	2	0	2	1	800	900	200	0	1	500052	100001001	s01007
 100001002	唯我独尊	1	0	2	0	2	1	800	900	300	3	1	500000	100001002	s02009
 100001003	天王托塔	1	0	2	1	3	0	900	1000	400	4	1	500001,500012	100001003	s02010

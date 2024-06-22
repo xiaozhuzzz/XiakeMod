@@ -1,5 +1,5 @@
 #ConditionID	CondName	CondDesc	sIconName	CondType	CondTarget	MinTurn	MaxTurn	RemoveByTurn	RemoveOnAttack	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit
-990110	醉意	我没醉！	c00021	6	0	999	999	100	0	111	1	1	4	4	30
+970000	醉意	我没醉！	c00021	6	0	999	999	100	0	300	1	1	4	4	30
 990100	不着形相	受击时模仿敌方招式，而后可主动使用	c00003	0	0	999	999	100	0	110	4	1	0	0	0
 990090	黄雀在后	当敌人在自身的反击范围内攻击队友，有机率以反击技攻击该敌人	c00003	0	0	999	999	100	0	109	4	1	40	0	1
 990080	并肩作战	周围队友攻击时，有概率一起攻击	c00007	0	0	999	999	100	0	108	4	1	40	0	1

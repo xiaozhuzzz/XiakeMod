@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDicConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DicConfig>
+		<Key>0</Key>
+		<Value>全部单位</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>1</Key>
+		<Value>友方</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>2</Key>
+		<Value>敌方</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>3</Key>
+		<Value>全部格子</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>4</Key>
+		<Value>空格子</Value>
+	</DicConfig>
+</ArrayOfDicConfig>

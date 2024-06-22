@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDicConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DicConfig>
+		<Key>0</Key>
+		<Value>伤害</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>1</Key>
+		<Value>治疗</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>2</Key>
+		<Value>召唤</Value>
+	</DicConfig>
+</ArrayOfDicConfig>
