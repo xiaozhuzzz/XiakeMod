@@ -1,7 +1,7 @@
 #ConditionID	CondName	CondDesc	sIconName	CondType	CondTarget	MinTurn	MaxTurn	RemoveByTurn	RemoveOnAttack	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit
 980050	通天神探	周身四格内敌方单位根据远近渐次失去5~3%气血、<br>内力	c00025	0	0	100	100	0	0	1	9	1	5	3	3	0	9	1	5	3	3
 980049	干柴烈火	每击杀一个敌人，增加10%伤害，最多累积至100%	c00007	4	0	100	100	0	0	3	1	1	10	10	100
-980048	点石成金	清除对方身上2个正向状态	c00021	3	1	99	99	100	100	20	4	0	2	2	0
+980048	点石成金	免疫眩晕，防爆提升30%	c00021	0	0	99	99	0	0	33	4	0	0	0	0	24	0	1	30	30	0
 980047	千年杀	攻击时吸收伤害的10%~15%回复气血	c00022	0	0	100	100	0	0	17	0	1	10	15	0
 980046	第一情圣	周身两格友方，回复气血、内力5~10%，并增加<br>防御100~300点；自身每回合恢复气血、内力5~10%，并<br>增加防御300点	c00016	0	0	99	99	0	0	0	5	1	10	5	2	1	5	1	10	5	2	4	5	0	300	100	2	0	0	1	5	10	0	1	0	1	5	10	0	4	0	0	300	300	0
 980045	齐天大圣	觔斗：神行<br>定海：缚身<br>火眼：识破<br>石猴：减伤15%	c00025	0	0	99	99	0	0	9	0	0	1	1	1	22	0	0	4	4	4	7	0	1	20	30	0	32	0	1	15	15	0
