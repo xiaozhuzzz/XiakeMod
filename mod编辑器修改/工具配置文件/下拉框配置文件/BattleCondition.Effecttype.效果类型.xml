@@ -10,11 +10,11 @@
 	</DicConfig>
 	<DicConfig>
 		<Key>3</Key>
-		<Value>攻击力</Value>
+		<Value>伤害</Value>
 	</DicConfig>
 	<DicConfig>
 		<Key>4</Key>
-		<Value>防御力</Value>
+		<Value>防御</Value>
 	</DicConfig>
 	<DicConfig>
 		<Key>5</Key>
@@ -34,75 +34,55 @@
 	</DicConfig>
 	<DicConfig>
 		<Key>9</Key>
-		<Value>移动力 </Value>
+		<Value>移动力</Value>
 	</DicConfig>
 	<DicConfig>
 		<Key>10</Key>
-		<Value>功体</Value>
-	</DicConfig>
-	<DicConfig>
-		<Key>11</Key>
-		<Value>移动</Value>
-	</DicConfig>
-	<DicConfig>
-		<Key>12</Key>
-		<Value>连击</Value>
-	</DicConfig>
-	<DicConfig>
-		<Key>13</Key>
-		<Value>被暴击</Value>
-	</DicConfig>
-	<DicConfig>
-		<Key>14</Key>
-		<Value>左右互搏</Value>
+		<Value>免疫内伤</Value>
 	</DicConfig>
 	<DicConfig>
 		<Key>15</Key>
-		<Value>反伤</Value>
+		<Value>反弹伤害</Value>
 	</DicConfig>
 	<DicConfig>
 		<Key>16</Key>
-		<Value>内力吸收伤害</Value>
+		<Value>内力抵挡伤害</Value>
 	</DicConfig>
 	<DicConfig>
 		<Key>17</Key>
-		<Value>攻击回复气血</Value>
+		<Value>攻击吸气血</Value>
 	</DicConfig>
 	<DicConfig>
 		<Key>18</Key>
-		<Value>攻击回复内力</Value>
+		<Value>攻击吸内力</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>19</Key>
+		<Value>作用不明</Value>
 	</DicConfig>
 	<DicConfig>
 		<Key>20</Key>
-		<Value>解除负向状态 </Value>
+		<Value>解除负面</Value>
 	</DicConfig>
 	<DicConfig>
 		<Key>22</Key>
-		<Value>移动等级</Value>
+		<Value>行动等级/神行</Value>
 	</DicConfig>
 	<DicConfig>
 		<Key>23</Key>
-		<Value>连斩效果 </Value>
+		<Value>连斩</Value>
 	</DicConfig>
 	<DicConfig>
 		<Key>24</Key>
-		<Value>防暴</Value>
+		<Value>不会被暴击</Value>
 	</DicConfig>
 	<DicConfig>
 		<Key>25</Key>
-		<Value>防反</Value>
+		<Value>不会被反击</Value>
 	</DicConfig>
 	<DicConfig>
 		<Key>26</Key>
-		<Value>保护队友</Value>
-	</DicConfig>
-	<DicConfig>
-		<Key>27</Key>
-		<Value>震击</Value>
-	</DicConfig>
-	<DicConfig>
-		<Key>28</Key>
-		<Value>捉影</Value>
+		<Value>保护同伴</Value>
 	</DicConfig>
 	<DicConfig>
 		<Key>29</Key>
@@ -110,7 +90,7 @@
 	</DicConfig>
 	<DicConfig>
 		<Key>30</Key>
-		<Value>按对方招式反击</Value>
+		<Value>模仿敌人招式反击</Value>
 	</DicConfig>
 	<DicConfig>
 		<Key>31</Key>
@@ -118,11 +98,15 @@
 	</DicConfig>
 	<DicConfig>
 		<Key>32</Key>
-		<Value>减少伤害</Value>
+		<Value>降低伤害</Value>
 	</DicConfig>
 	<DicConfig>
 		<Key>33</Key>
 		<Value>免疫眩晕</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>11</Key>
+		<Value>移动</Value>
 	</DicConfig>
 	<DicConfig>
 		<Key>100</Key>
@@ -169,7 +153,127 @@
 		<Value>不着形相</Value>
 	</DicConfig>
 	<DicConfig>
+		<Key>203</Key>
+		<Value>守株待兔次数</Value>
+	</DicConfig>
+	<DicConfig>
 		<Key>300</Key>
 		<Value>醉意</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>400</Key>
+		<Value>从背面攻击前触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>401</Key>
+		<Value>从侧面攻击前触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>402</Key>
+		<Value>从正面攻击前触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>403</Key>
+		<Value>攻击前触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>404</Key>
+		<Value>受背面攻击前触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>405</Key>
+		<Value>受侧面攻击前触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>406</Key>
+		<Value>受正面攻击前触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>407</Key>
+		<Value>受攻击前触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>408</Key>
+		<Value>从背面攻击后触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>409</Key>
+		<Value>从侧面攻击后触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>410</Key>
+		<Value>从正面攻击后触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>411</Key>
+		<Value>攻击后触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>412</Key>
+		<Value>受背面攻击后触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>413</Key>
+		<Value>受侧面攻击后触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>414</Key>
+		<Value>受正面攻击后触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>415</Key>
+		<Value>受攻击后触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>416</Key>
+		<Value>暴击前触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>417</Key>
+		<Value>被暴击前触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>418</Key>
+		<Value>被暴击后触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>419</Key>
+		<Value>反击后触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>420</Key>
+		<Value>被反击前触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>421</Key>
+		<Value>被反击后触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>422</Key>
+		<Value>闪避前触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>423</Key>
+		<Value>被闪避前触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>424</Key>
+		<Value>被闪避后触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>425</Key>
+		<Value>死亡时触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>426</Key>
+		<Value>死亡时触发-范围内敌方</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>427</Key>
+		<Value>死亡时触发-范围内友方</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>428</Key>
+		<Value>死亡时触发-范围内所有</Value>
 	</DicConfig>
 </ArrayOfDicConfig>
