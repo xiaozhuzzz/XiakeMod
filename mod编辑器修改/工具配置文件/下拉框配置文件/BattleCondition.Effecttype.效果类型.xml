@@ -152,6 +152,10 @@
 		<Key>110</Key>
 		<Value>不着形相</Value>
 	</DicConfig>
+		<DicConfig>
+		<Key>111</Key>
+		<Value>吸收内功效果</Value>
+	</DicConfig>
 	<DicConfig>
 		<Key>203</Key>
 		<Value>守株待兔次数</Value>
@@ -275,5 +279,45 @@
 	<DicConfig>
 		<Key>428</Key>
 		<Value>死亡时触发-范围内所有</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>429</Key>
+		<Value>队友阵亡时触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>430</Key>
+		<Value>敌方阵亡时触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>431</Key>
+		<Value>单位阵亡时触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>432</Key>
+		<Value>加入战斗时时触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>433</Key>
+		<Value>战斗开始时触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>434</Key>
+		<Value>回合开始时触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>435</Key>
+		<Value>回合结束时触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>436</Key>
+		<Value>阵营回合开始时触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>437</Key>
+		<Value>阵营回合结束时触发</Value>
+	</DicConfig>
+	<DicConfig>
+		<Key>500</Key>
+		<Value>醉意层数</Value>
 	</DicConfig>
 </ArrayOfDicConfig>

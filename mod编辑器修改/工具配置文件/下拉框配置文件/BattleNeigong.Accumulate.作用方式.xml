@@ -60,4 +60,8 @@
 		<Key>18</Key>
 		<Value>与目标距离</Value>
 	</DicConfig>
+	<DicConfig>
+		<Key>19</Key>
+		<Value>醉意层数</Value>
+	</DicConfig>
 </ArrayOfDicConfig>

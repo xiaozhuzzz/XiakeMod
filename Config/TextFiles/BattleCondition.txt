@@ -1,4 +1,8 @@
-#ConditionID	CondName	CondDesc	sIconName	CondType	CondTarget	MinTurn	MaxTurn	RemoveByTurn	RemoveOnAttack	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit
+#ConditionID	CondName	CondDesc	sIconName	CondType	CondTarget	MinTurn	MaxTurn	RemoveByTurn	RemoveOnAttack	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit
+970003	醉意回合结束收益	回合结束时，清除2个负面效果，如醉意层数大于8，则每多一层回复气血。	c00021	2	0	1	1	0	0	0	19	1	1	8	8	1	19	1	1	8	8	20	0	0	2	2	0
+970002	醉意层数-2	醉意层数-2	c00021	2	0	1	1	0	0	500	0	0	-2	-2	0
+970001	醉意层数+2	醉意层数+2	c00021	2	0	1	1	0	0	500	0	0	2	2	0
+960000	饮中游侠	醉意，黄雀在后	c00025	0	0	999	999	0	0	432	7	1	970000	0	0
 980050	通天神探	周身四格内敌方单位根据远近渐次失去5~3%气血、<br>内力	c00025	0	0	100	100	0	0	1	9	1	5	3	3	0	9	1	5	3	3
 980049	干柴烈火	每击杀一个敌人，增加10%伤害，最多累积至100%	c00007	4	0	100	100	0	0	3	1	1	10	10	100
 980048	点石成金	免疫眩晕，防爆提升30%	c00021	0	0	99	99	0	0	33	4	0	0	0	0	24	0	1	30	30	0
@@ -49,7 +53,7 @@
 980003	少年英雄	气血高于50%时防御提升15%；气血低于50%时伤害提升15%	c00021	0	0	99	99	0	0	0	10	1	0	980005	50	0	10	1	980004	0	50
 980002	战无不胜	暴击、闪避、反击提升10%	c00020	0	0	100	100	0	0	5	0	1	10	10	0	6	0	1	10	10	0	7	0	1	10	10	0
 980001	逍遥弟子	攻击力提升100、防御力提升250	c00021	0	0	100	100	0	0	3	0	0	100	100	0	4	0	0	250	250	0
-970000	醉意	我没醉！	c00021	6	0	999	999	100	0	300	1	1	4	4	30
+970000	醉意	我没醉！	c00021	6	0	999	999	0	0	300	0	0	4	4	30	411	7	0	970001	0	0	7	7	0	970001	0	0	6	7	0	970001	0	0	419	7	0	970001	0	0	415	7	0	970002	0	0	435	7	0	970003	0	0	3	19	1	1	0	0	32	19	1	1	0	0
 990100	不着形相	受击时模仿敌方招式，而后可主动使用	c00003	0	0	999	999	100	0	110	4	1	0	0	0
 990090	黄雀在后	当敌人在自身的反击范围内攻击队友，有机率以反击技攻击该敌人	c00003	0	0	999	999	100	0	109	4	1	40	0	1
 990080	并肩作战	周围队友攻击时，有概率一起攻击	c00007	0	0	999	999	100	0	108	4	1	40	0	1
