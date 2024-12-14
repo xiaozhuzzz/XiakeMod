@@ -1,4 +1,18 @@
 #ConditionID	CondName	CondDesc	sIconName	CondType	CondTarget	MinTurn	MaxTurn	RemoveByTurn	RemoveOnAttack	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit	EffectType	Accumulate	Percent	Value1	Value2	ValueLimit
+950100	急速	重置特技技能CD	c00006	2	0	0	0	0	0	112	0	0	3	10000	0
+950090	以战养战	击杀敌人后恢复全部气血和内力	c00006	0	0	0	0	-1	1	23	7	0	600062	0	0	23	7	0	950100	0	0
+950080	必定命中	必定命中	c00006	0	0	0	0	-1	1	8	4	1	0	0	0
+950070	斩棘	伤害提升30%	c00006	0	0	0	0	-1	1	3	0	1	30	30	0
+950060	气蕴	每回合恢复气血5%与内力20%	c00006	2	0	0	0	0	0	0	0	1	5	5	0	1	0	1	20	20	0
+950050	左右互博	100%概率攻击两次	c00006	0	0	2	2	-1	1	14	0	1	100	100	0
+950040	血战到底	完全免疫攻击一回合	c00006	0	0	1	1	0	0	0	4	1	0	0	0
+960010	刀剑双绝	血战到底，趁势	c00025	0	0	999	999	0	0	425	7	1	950040	0	0	7	7	1	950050	0	0	425	7	1	950060	0	0
+950030	吸星	攻击时吸收伤害的50%回复内力	c00006	0	0	0	0	-1	1	18	0	1	50	50	0
+950020	噬气	攻击时吸收伤害的50%回复气血	c00022	0	0	0	0	-1	1	17	0	1	50	50	0
+950010	必中	必定命中	c00004	0	0	0	0	-1	1	8	4	1	0	0	0
+950000	必暴	必定暴击	c00021	0	0	0	0	-1	1	7	4	1	0	0	0
+970011	被锁定	被杀意锁定。	c00021	1	1	999	999	-1	-1
+970010	锁定	对锁定目标有特殊效果。	c00021	0	0	999	999	0	0	403	7	1	950000	1	970011	403	7	1	950020	1	970011	403	7	1	950030	1	970011	403	7	1	950070	1	970011	403	7	1	950090	1	970011
 970003	醉意回合结束收益	回合结束时，清除2个负面效果，如醉意层数大于8，则每多一层回复气血。	c00021	2	0	1	1	0	0	0	19	1	1	8	8	1	19	1	1	8	8	20	0	0	2	2	0
 970002	醉意层数-2	醉意层数-2	c00021	2	0	1	1	0	0	500	0	0	-2	-2	0
 970001	醉意层数+2	醉意层数+2	c00021	2	0	1	1	0	0	500	0	0	2	2	0
